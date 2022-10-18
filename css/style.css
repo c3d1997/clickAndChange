@@ -1,0 +1,183 @@
+/* .slider {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.slider_s {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+
+.box__in {
+    width: 100%;
+}
+
+iframe {
+    pointer-events: none;
+    width: 100%;
+    max-height: 1080px;
+}
+
+.slick-list {
+    padding: 0 !important;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '';
+    background: url('../img/O.svg') no-repeat center/50%;
+    text-align: center;
+    opacity: .15;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.slick-prev:before {
+    background: url('../img/left.svg')no-repeat center/100%;
+}
+
+.slick-next:before {
+    background: url('../img/right.svg')no-repeat center/100%;
+}
+
+
+
+
+p {
+    font-size: 32px;
+    display: flex;
+    line-height: 100px;
+    align-items: center;
+    justify-content: center;
+
+} */
+
+/* 通用 */
+.all__disNone {
+    display: none;
+}
+
+/* carousel */
+
+.carousel {
+
+    max-width: 800px;
+    margin: auto;
+    padding: 0 24px;
+}
+
+.carousel__show,
+.carousel__click {
+    position: relative;
+    margin: 0px 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: auto;
+
+}
+
+.carousel__show {
+    width: 60%;
+    padding-bottom: 36.25%;
+}
+
+
+.carousel__showSize iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel__clickSize img {
+    position: absolute;
+    top: 4%;
+    left: 0;
+    width: 32%;
+    height: 32%;
+    background-color: white;
+    opacity: .5;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.carousel__clickSize img:hover {
+    transform: scale(1.025);
+}
+
+.carousel__clickSize img:active {
+    transform: scale(.96);
+}
+
+.carousel__clickSize:nth-child(1) img {
+    left: 0;
+}
+
+.carousel__clickSize:nth-child(2) img {
+    left: 34%;
+}
+
+.carousel__clickSize:nth-child(3) img {
+    left: 68%;
+}
+
+/* 修飾符 */
+.carousel__clickSize .carousel__tr--opacity {
+    opacity: .5;
+}
+
+.carousel__clickSize .carousel__full--opacity {
+    opacity: 1;
+}
